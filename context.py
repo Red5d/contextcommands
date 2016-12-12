@@ -13,7 +13,7 @@ sys.argv.pop(0)
 word = sys.argv.pop(0)
 lastcmd = sys.argv
 
-nocmd = "echo 'No context commands found.'"
+nocmd = "false"
 
 try:
     list(modules.keys()).index(lastcmd[0])
