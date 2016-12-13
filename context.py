@@ -2,7 +2,7 @@
 
 import os, sys, importlib
 
-
+os.chdir(os.environ['HOME']+'/.local/bin/contextcommands')
 modules = {}
 for module in os.listdir('modules'):
     if module.endswith(".py"):
