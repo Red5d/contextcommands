@@ -2,7 +2,8 @@
 
 import os, sys, importlib
 
-os.chdir(os.environ['HOME']+'/.local/bin/contextcommands')
+#os.chdir(os.environ['HOME']+'/.local/bin/contextcommands')
+os.chdir(os.path.dirname(os.path.realpath(sys.argv[0])))
 modules = {}
 for module in os.listdir('modules'):
     if module.endswith(".py"):
