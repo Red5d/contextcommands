@@ -8,7 +8,7 @@ This tool requires the importlib module which is included in Python 3.x, but nee
 
 Clone this repo to your local system, then run the **install.sh** script. It will copy the files into ~/.local/bin/contextcommands and give you a line to put in your ~/.bashrc file to add the 'c' function to your environment.
 
-##Example usage:
+## Example usage:
 
     sudo systemctl restart apache2
     c status
